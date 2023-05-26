@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    --backgroundPage : #000;
+    --colorText : #fff;
+    --textBlue : #57AEED;
+}
+
+body{
+    width: 100%;
+    background-color: var(--textBlue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+figure img{
+  height: 60rem;
+  filter: drop-shadow(0 0 20px #121212);
+}
+
+.left-content{
+    width: 47%;
+}
+.left-content:first-child h1{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 5rem;
+    color: var(--colorText);
+}
+.left-content:first-child h1 span{
+     color: var(--backgroundPage);
+}
+.left-content:first-child h4 {
+    color: var(--colorText);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 4rem;
+
+}
+article{
+    width: 70%;
+    text-align: justify;
+}
+.buttons{
+    margin-top: 5.1rem;
+}
+.buttons button{
+    background-color: var(--backgroundPage);
+    color: var(--colorText);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    outline: none;
+    border-color: transparent;
+    border-radius: 1.6rem;
+    padding: 1.6rem 3rem 1.6rem;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color:  #576574;
+}
+.buttons a:nth-child(2){
+     margin-left: 2rem;
+}
