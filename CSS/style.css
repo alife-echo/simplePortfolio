@@ -16,7 +16,7 @@ html{
 
 body{
     width: 100%;
-    background-color: var(--textBlue);
+    background-color: var(--colorText);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,8 +30,9 @@ body{
 }
 
 figure img{
-  height: 60rem;
+  height: 40rem;
   filter: drop-shadow(0 0 20px #121212);
+  border-radius: 50%;
 }
 
 .left-content{
@@ -42,13 +43,13 @@ figure img{
     font-weight: 400;
     font-size: 3rem;
     line-height: 5rem;
-    color: var(--colorText);
+    color: var(--textBlue);
 }
 .left-content:first-child h1 span{
      color: var(--backgroundPage);
 }
 .left-content:first-child h4 {
-    color: var(--colorText);
+    color: var(--backgroundPage);
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 2rem;
